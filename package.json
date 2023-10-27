@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "remix dev -c \"node server.mjs\"",
-    "build" : "npm run build",
+    "build" : "remix build",
     "deploy" : "gh-pages -d build"
   },
   "dependencies": {
