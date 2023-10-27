@@ -1,0 +1,14 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+
+### VS Code ###
+.cache/
+
+
+# OS specific
+.DS_Store
