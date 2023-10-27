@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "dev": "remix dev -c \"node server.mjs\""
   },
