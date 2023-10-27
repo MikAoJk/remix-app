@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "remix dev -c \"node server.mjs\"",
     "predeploy" : "npm run build",
-    "export": "npm run export",
+    "build": "react-scripts build",
     "deploy" : "gh-pages -d build"
   },
   "dependencies": {
