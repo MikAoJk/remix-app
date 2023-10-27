@@ -9,6 +9,9 @@ out/
 ### VS Code ###
 .cache/
 
-
 # OS specific
 .DS_Store
+
+public
+
+node_modules
