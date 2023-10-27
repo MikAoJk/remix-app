@@ -1,7 +1,12 @@
 {
+  "name": "remix-app",
+  "homepage": "https://mikaojk.github.io/remix-app",
   "type": "module",
   "scripts": {
-    "dev": "remix dev -c \"node server.mjs\""
+    "dev": "remix dev -c \"node server.mjs\"",
+    "predeploy" : "npm run build",
+    "export": "npm run export",
+    "deploy" : "gh-pages -d build"
   },
   "dependencies": {
     "@remix-run/express": "^2.1.0",
@@ -13,6 +18,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.1.0"
+    "@remix-run/dev": "^2.1.0",
+    "gh-pages": "^6.0.0"
   }
 }
