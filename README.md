@@ -30,4 +30,4 @@ The website runs and can be accesed here http://localhost:3000
 This project is maintained by [CODEOWNERS](CODEOWNERS)
 
 Questions and/or feature requests?
-Please create an [issue](https://github.com/MikAoJk/remix-app/issues)
+Please create an [issue](https://github.com/MikAoJk/remix-app/issues) or a pull request 
