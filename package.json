@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "remix dev -c \"node server.mjs\"",
-    "build" : "remix build",
-    "deploy" : "gh-pages -d build"
+    "build" : "remix build"
   },
   "dependencies": {
     "@remix-run/express": "^2.1.0",
@@ -17,7 +16,6 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.1.0",
-    "gh-pages": "^6.0.0"
+    "@remix-run/dev": "^2.1.0"
   }
 }
