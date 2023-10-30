@@ -1,6 +1,5 @@
 {
   "name": "remix-app",
-  "homepage": "https://mikaojk.github.io/remix-app",
   "type": "module",
   "scripts": {
     "dev": "remix dev -c \"node server.mjs\"",
